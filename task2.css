@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(40, 40, 40, 0.751);
+}
+body{
+    background-color: rgba(40, 40, 40, 0.751);
+}
+div{
+    position: relative;
+    display: flex;
+    width: 95vw;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: rgba(40, 40, 40, 0.751);
+}
+div span img{
+    width:15vw;
+    height: 30vh;
+}
+.gal1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: im1 20s linear infinite;
+}
+@keyframes im1 {
+    0%{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    14%{
+        position: absolute;
+        top: 12vh;
+        left:12vw;
+    }
+    28%{
+        position: absolute;
+        top: 24vh;
+        left:24vw;
+    }
+    42%{
+        position: absolute;
+        top: 36vh;
+        left:36vw;
+    }
+    56%{
+        position: absolute;
+        top: 24vh;
+        left:48vw;
+    }
+    70%{
+        position: absolute;
+        top: 12vh;
+        left:60vw;
+    }
+    84%{
+        position: absolute;
+        top: 0vh;
+        left: 72vw;
+    }
+}
+.gal2{
+    position: absolute;
+    top: 12vh;
+    left:12vw;
+    animation: im2 20s linear infinite;
+}
+@keyframes im2 {
+    0%{
+        position: absolute;
+        top: 12vh;
+        left:12vw;
+    }
+    14%{
+        position: absolute;
+        top: 24vh;
+        left:24vw;
+    }
+    28%{
+        position: absolute;
+        top: 36vh;
+        left:36vw;
+    }
+    42%{
+        position: absolute;
+        top: 24vh;
+        left:48vw;
+    }
+    56%{
+        position: absolute;
+        top: 12vh;
+        left:60vw;
+    }
+    70%{
+        position: absolute;
+        top: 0vh;
+        left: 72vw;
+    }
+    84%{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
+.gal3{
+    position: absolute;
+    top: 24vh;
+    left:24vw;
+    animation: im3 20s linear infinite;
+}
+@keyframes im3 {
+    0%{
+        position: absolute;
+        top: 24vh;
+        left:24vw;
+    }
+    14%{
+        position: absolute;
+        top: 36vh;
+        left:36vw;
+    }
+    28%{
+        position: absolute;
+        top: 24vh;
+        left:48vw;
+    }
+    42%{
+        position: absolute;
+        top: 12vh;
+        left:60vw;
+    }
+    56%{
+        position: absolute;
+        top: 0vh;
+        left: 72vw;
+    }
+    70%{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    84%{
+        position: absolute;
+        top: 12vh;
+        left:12vw;
+    }
+}
+.gal4{
+    position: absolute;
+    top: 36vh;
+    left:36vw;
+    animation: im4 20s linear infinite;
+}
+@keyframes im4 {
+    0%{
+        position: absolute;
+        top: 36vh;
+        left:36vw;
+    }
+    14%{
+        position: absolute;
+        top: 24vh;
+        left:48vw;
+    }
+    28%{
+        position: absolute;
+        top: 12vh;
+        left:60vw;
+    }
+    42%{
+        position: absolute;
+        top: 0vh;
+        left: 72vw;
+    }
+    56%{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    70%{
+        position: absolute;
+        top: 12vh;
+        left:12vw;
+    }
+    84%{
+        position: absolute;
+        top: 24vh;
+        left:24vw;
+    }
+}
+.gal5{
+    position: absolute;
+    top: 24vh;
+    left:48vw;
+    animation: im5 20s linear infinite;
+}
+@keyframes im5 {
+    0%{
+        position: absolute;
+        top: 24vh;
+        left:48vw;
+    }
+    14%{
+        position: absolute;
+        top: 12vh;
+        left:60vw;
+    }
+    28%{
+        position: absolute;
+        top: 0vh;
+        left: 72vw;
+    }
+    42%{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    56%{
+        position: absolute;
+        top: 12vh;
+        left:12vw;
+    }
+    70%{
+        position: absolute;
+        top: 24vh;
+        left:24vw;
+    }
+    84%{
+        position: absolute;
+        top: 36vh;
+        left:36vw;
+    }
+}
+.gal6{
+    position: absolute;
+    top: 12vh;
+    left:60vw;
+    animation: im6 20s linear infinite;;
+}
+@keyframes im6 {
+    0%{
+        position: absolute;
+        top: 12vh;
+        left:60vw;
+    }
+    14%{
+        position: absolute;
+        top: 0vh;
+        left: 72vw;
+    }
+    28%{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    42%{
+        position: absolute;
+        top: 12vh;
+        left:12vw;
+    }
+    56%{
+        position: absolute;
+        top: 24vh;
+        left:24vw;
+    }
+    70%{
+        position: absolute;
+        top: 36vh;
+        left:36vw;
+    }
+    84%{
+        position: absolute;
+        top: 24vh;
+        left:48vw;
+    }
+}
+.gal7{
+    position: absolute;
+    top: 0vh;
+    left: 72vw;
+    animation: im7 20s linear infinite;;
+}
+@keyframes im7 {
+    0%{
+        position: absolute;
+        top: 0vh;
+        left: 72vw;
+    }
+    7%{
+        position: absolute;
+        top: 0vh;
+        left: 36vw;
+    }
+    14%{
+        position: absolute;
+        top: 0vh;
+        left: 0vw;
+    }
+    28%{
+        position: absolute;
+        top: 12vh;
+        left:12vw;
+    }
+    42%{
+        position: absolute;
+        top: 24vh;
+        left:24vw;
+    }
+    56%{
+        position: absolute;
+        top: 36vh;
+        left:36vw;
+    }
+    70%{
+        position: absolute;
+        top: 24vh;
+        left:48vw;
+    }
+    84%{
+        position: absolute;
+        top: 12vh;
+        left:60vw;
+    }
+}
